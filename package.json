@@ -1,0 +1,27 @@
+{
+  "name": "blogger2firebase",
+  "version": "1.0.0",
+  "description": "Code to parse a blogger backup file and store it in Firebase database",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trendoid/blogger2firebase.git"
+  },
+  "keywords": [
+    "firebase"
+  ],
+  "author": "Aaron Stanley King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trendoid/blogger2firebase/issues"
+  },
+  "homepage": "https://github.com/trendoid/blogger2firebase#readme",
+  "dependencies": {
+    "firebase-admin": "^7.0.0",
+    "lodash": "^4.17.11",
+    "xml2js": "^0.4.19"
+  }
+}
